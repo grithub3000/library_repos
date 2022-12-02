@@ -1,3 +1,14 @@
+'''
+Ryan Coutts
+Library of Congress
+CS 1400
+Due October 21, 2022
+This program is meant to read, and reorginize a file of scattered lines from 
+different books into the correct order and within the correct novel. It also 
+prints a brief summary of each novel that includes the longest line, the 
+shortest line, and the average line length. Lessons Learned: Using sys.argv,
+ how to sort CSV files, improving function structure.
+'''
 def main():
     import csv, operator
     data = "book_data.txt"
